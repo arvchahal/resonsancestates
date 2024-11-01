@@ -1,0 +1,44 @@
+#Number of particles
+3
+#Charges
+-1  -1   1
+ 1   1   2  
+#Masses
+ 1.  1.   1.
+#number of spin conf
+2
+#spins
+  1. 1 2 1 
+ -1. 2 1 1
+#Number of basis states 
+1545
+#Number of nuclei
+0
+# xyz positions and charges of the nuclei
+# svm cycles
+20 100
+# bm1, bm2 range of gaussians and bms(i),i=1,2 region for the gaussian centers (xy)
+35. 35. 0.1 0. 0. 0.01
+# random seed
+-9121
+# 1 increase 2 refine
+1 1
+# calculate density
+.ftrue.
+# omega photon frequency
+0.1
+# E field coupling strength
+0.05 1 0
+# photon_min photon_dim 
+1 2000
+# remove cm motion
+.true.
+# potential type
+1
+#optimize excited state
+.ftrue. 2 2
+# ho parameter
+0.0
+# parity
+0
+
